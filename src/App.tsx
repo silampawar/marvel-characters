@@ -49,19 +49,17 @@ function App(): JSX.Element {
     response && (!isFilterChange && !isLoadMoreClicked) && setCharacterList([...response.results] as any);
 
   }, [response,isLoadMoreClicked,isFilterChange])
-  console.log("🚀 ~ file: App.tsx ~ line 49 ~ App ~ isLoadMoreClicked", isLoadMoreClicked)
 
   useEffect(() => {
     response && setCharacterList([...response.results] as any);
 
   }, [filter])
-  console.log("🚀 ~ file: App.tsx ~ line 55 ~ App ~ isFilterChange", isFilterChange)
 
 
   return (
 
     <>
-      <div className="app">
+      <div className={styles.app}>
         <div className={styles.main}>
           <div>
             <header className={styles.header}>
