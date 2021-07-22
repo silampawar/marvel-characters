@@ -4,7 +4,7 @@
 An application used to fetch data from official Marvel site. All the Marvel characters are displayed on the screen along with it's available comic,series, events and stories count. Clicking on the character will open up a new tab with more details on Marvel.com.
 
 ## Application url
-[Marvel Characters]()
+[Marvel Characters](https://marvel-characters-tau.vercel.app/)
 ## Application screenshots
 
 ![img](https://i.imgur.com/hlWtqBN.png)
