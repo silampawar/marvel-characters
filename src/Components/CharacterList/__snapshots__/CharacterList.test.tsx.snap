@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character Should render when no url present 1`] = `ShallowWrapper {}`;
+
+exports[`Character should render properly 1`] = `ShallowWrapper {}`;
+
+exports[`Characterlist tests Should render when no data present 1`] = `ShallowWrapper {}`;
+
+exports[`Characterlist tests Should render when no url present 1`] = `ShallowWrapper {}`;
+
+exports[`Characterlist tests should render Characterlist properly 1`] = `ShallowWrapper {}`;

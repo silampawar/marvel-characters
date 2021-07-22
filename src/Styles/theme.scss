@@ -1,0 +1,33 @@
+$color-black: #151515;
+$color-red: #e62429;
+$color-white: #fff;
+$color-orange: #c6a972;
+$color-grey: #bbb;
+$color-lightgrey: #efefef;
+$color-darkgrey: #ccc;
+
+$font-fallback: "Trebuchet MS", Helvetica, Arial, sans-serif;
+$font-text: 400 16/1.3 Roboto, $font-fallback;
+$font-header: 800 26px RobotoCondensed, $font-fallback;
+$font-title: 400 16px/1.1 RobotoCondensed Bold, $font-fallback;
+
+// breakpoints
+@mixin for-mobile {
+  @media (min-width: 200px) and (max-width: 767px) {
+    @content;
+  }
+}
+@mixin for-tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin for-desktop {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin upper {
+  text-transform: uppercase;
+}

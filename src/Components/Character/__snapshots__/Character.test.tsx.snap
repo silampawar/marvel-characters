@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character Should render when no url present 1`] = `ShallowWrapper {}`;
+
+exports[`Character should have link without url if detail url not found 1`] = `ShallowWrapper {}`;
+
+exports[`Character should render properly 1`] = `ShallowWrapper {}`;
